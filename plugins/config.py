@@ -13,9 +13,9 @@ class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     
-    API_ID = int(os.environ.get("API_ID", ""))
+    API_ID = int(os.environ.get("API_ID", "9976721"))
     
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "3ef17a8cdb938335bd8ba292e6d816aa")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -37,7 +37,7 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 0
     
-    DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "RSuploader_bot"
     
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
@@ -53,5 +53,5 @@ class Config(object):
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "RSuploader_bot")
                                   
